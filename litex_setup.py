@@ -460,8 +460,8 @@ def main():
 
     # Location/Auto-Update.
     litex_setup_location_check()
-    if not args.dev:
-        litex_setup_auto_update()
+    # if not args.dev:
+    #     litex_setup_auto_update() # frank added this line to avoid auto-update
 
     # Init.
     if args.init:
