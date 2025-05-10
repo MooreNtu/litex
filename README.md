@@ -6,6 +6,13 @@
 [![](https://github.com/enjoy-digital/litex/workflows/ci/badge.svg)](https://github.com/enjoy-digital/litex/actions)
 ![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)
 
+# Modification for Rocket_SLAM
+## 1. Changed the Rocket Chip Config
+> 1.Change the **"io region"** size from 0x7000_0000 to 0x6000_0000  
+2.Temporarily removed **OpenSBI**
+
+
+
 # Welcome to LiteX!
 
 
